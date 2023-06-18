@@ -36,3 +36,7 @@ MonoBehaviour:
   - music / ambient
   - MUSIC / DEMON SPAWN
   - MUSIC / AMBIENT
+  - PLAYER / SLOW
+  - PLAYER / NORMAL SPEED
+  - PLAYER / SCARED
+  - PLAYER / NOT SCARED
