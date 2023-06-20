@@ -40,3 +40,4 @@ MonoBehaviour:
   - PLAYER / NORMAL SPEED
   - PLAYER / SCARED
   - PLAYER / NOT SCARED
+  - interactEvent
