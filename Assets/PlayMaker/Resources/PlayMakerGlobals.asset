@@ -41,3 +41,4 @@ MonoBehaviour:
   - PLAYER / SCARED
   - PLAYER / NOT SCARED
   - interactEvent
+  - PLAYER / EQUIP ADD
