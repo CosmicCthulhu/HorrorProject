@@ -44,7 +44,7 @@ MonoBehaviour:
         - Mouse Look - To tilt camera up and down
         - Set Mouse Cursor - To hide the cursor and lock to screen center
         actionEnabled: 01010101
-        actionIsOpen: 01010101
+        actionIsOpen: 00010101
         actionStartIndex: 00000000010000000a00000013000000
         actionHashCodes: 78c53001e6fd4500e6fd4500074b1504
         unityObjectParams: []

@@ -46,3 +46,4 @@ MonoBehaviour:
   - ITEM / EPUIPPED
   - HEALTH / SUBTRACT
   - HEALTH / DEAD
+  - OFF
