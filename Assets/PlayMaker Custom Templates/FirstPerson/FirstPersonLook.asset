@@ -21,12 +21,12 @@ MonoBehaviour:
     states:
     - name: Lock and Cursor Lock
       description: 
-      colorIndex: 0
+      colorIndex: 3
       position:
         serializedVersion: 2
-        x: 50
-        y: 100
-        width: 157
+        x: 56
+        y: 114
+        width: 234
         height: 16
       isBreakpoint: 0
       isSequence: 0
@@ -217,8 +217,84 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 000000000000000000000000000000000100000002000000030000000400000005000000040000000100000005000000060000000700000008000000090000000a0000000b000000090000000000000000000000010000000a000000
         paramByteDataSize: 0000000000000000040000000000000000000000000000000000000000000000000000000100000000000000040000000000000000000000000000000000000000000000000000000100000000000000000000000000000001000000
-    events: []
-    globalTransitions: []
+    - name: Disabled
+      description: 
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 320
+        y: 112
+        width: 237
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
+    events:
+    - name: PLAYER / DISABLE ALL CONTROLS
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: PLAYER / ENABLE ALL CONTROLS
+      isSystemEvent: 0
+      isGlobal: 1
+    globalTransitions:
+    - fsmEvent:
+        name: PLAYER / DISABLE ALL CONTROLS
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: Disabled
+      linkStyle: 0
+      linkConstraint: 0
+      linkTarget: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: PLAYER / ENABLE ALL CONTROLS
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: Lock and Cursor Lock
+      linkStyle: 0
+      linkConstraint: 0
+      linkTarget: 0
+      colorIndex: 0
     variables:
       floatVariables:
       - useVariable: 1
