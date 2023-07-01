@@ -22,7 +22,13 @@ MonoBehaviour:
     colorVariables: []
     rectVariables: []
     quaternionVariables: []
-    gameObjectVariables: []
+    gameObjectVariables:
+    - useVariable: 1
+      name: GameManager
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
     objectVariables: []
     materialVariables: []
     textureVariables: []
@@ -30,7 +36,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 
+    variableCategoryIDs: 00000000
   events:
   - music / demon spawn
   - music / ambient
@@ -52,3 +58,6 @@ MonoBehaviour:
   - CAMERA / DEFAULT PLAYER
   - PLAYER / ENABLE ALL CONTROLS
   - CAMERA / DEAD
+  - LETTER / UPDATE
+  - LETTER / CLOSE
+  - PISTOL / ADD AMMO
